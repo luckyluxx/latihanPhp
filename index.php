@@ -12,6 +12,17 @@
 
 	<div class="container mt-4">
 		<div class="row">
+			<!-- <div class="col-md-12">
+				<div class="card">
+					<div class="car-header">
+						<span style="vertical-align: middle; float: right;">
+							<?php 
+								echo "Logged in as ". $_SESSION['username'];
+							 ?>
+						</span>
+					</div>
+				</div>
+			</div> -->
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
@@ -51,6 +62,13 @@
 							</tbody>
 						</table>
 					</div>
+				</div>
+			</div>
+			<div class="position-relative">
+				<div class="position-absolute top-100 start-100 translate-middle mt-5">
+					<a href="logout.php" class="login-register-text">
+						Logout
+					</a>
 				</div>
 			</div>
 		</div>
